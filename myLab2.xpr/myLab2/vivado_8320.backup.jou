@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct 14 16:43:39 2021
+# Process ID: 8320
+# Current directory: C:/Users/James/Desktop/CSE100/Labs/myLab2.xpr/myLab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7488 C:\Users\James\Desktop\CSE100\Labs\myLab2.xpr\myLab2\myLab2.xpr
+# Log file: C:/Users/James/Desktop/CSE100/Labs/myLab2.xpr/myLab2/vivado.log
+# Journal file: C:/Users/James/Desktop/CSE100/Labs/myLab2.xpr/myLab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/James/Desktop/CSE100/Labs/myLab2.xpr/myLab2/myLab2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source lab2_7Seg_testbench.tcl
+current_wave_config {Untitled 1}
+add_wave {{/lab2_7Seg_testbench/UUT/t0}} {{/lab2_7Seg_testbench/UUT/t1}} {{/lab2_7Seg_testbench/UUT/t2}} {{/lab2_7Seg_testbench/UUT/t3}} 
+run 500 ns
+run 100 ns
+run 100 ns
+save_wave_config {C:/Users/James/Desktop/CSE100/Labs/myLab2.xpr/myLab2/lab2_7Seg_testbench_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/James/Desktop/CSE100/Labs/myLab2.xpr/myLab2/lab2_7Seg_testbench_behav.wcfg
+set_property xsim.view C:/Users/James/Desktop/CSE100/Labs/myLab2.xpr/myLab2/lab2_7Seg_testbench_behav.wcfg [get_filesets sim_1]
+close_sim
