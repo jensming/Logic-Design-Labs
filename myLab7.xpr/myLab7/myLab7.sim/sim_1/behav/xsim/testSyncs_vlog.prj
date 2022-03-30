@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../myLab7.srcs/sources_1/imports/new/RingCounter.v" \
+"../../../../myLab7.srcs/sources_1/new/ScoreCounter.v" \
+"../../../../myLab7.srcs/sources_1/imports/new/Selector.v" \
+"../../../../myLab7.srcs/sources_1/imports/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/StateMachine.v" \
+"../../../../myLab7.srcs/sources_1/new/VGA_Control.v" \
+"../../../../myLab7.srcs/sources_1/new/Walls.v" \
+"../../../../myLab7.srcs/sources_1/new/WhiteBall.v" \
+"../../../../myLab7.srcs/sources_1/imports/new/countUD4L.v" \
+"../../../../myLab7.srcs/sources_1/imports/new/counterUD16L.v" \
+"../../../../myLab7.srcs/sources_1/imports/new/hex7seg.v" \
+"../../../../myLab7.srcs/sources_1/imports/Desktop/lab7_clks.v" \
+"../../../../myLab7.srcs/sources_1/new/top_module.v" \
+"../../../../myLab7.srcs/sim_1/imports/Desktop/test2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

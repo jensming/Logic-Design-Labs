@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov 16 11:40:48 2021
+# Process ID: 19448
+# Current directory: C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.sim/sim_1/behav/xsim/xsim.dir/lab7_VGAtestbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.sim/sim_1/behav/xsim/xsim.dir/lab7_VGAtestbench_behav/webtalk/xsim_webtalk.tcl -notrace
