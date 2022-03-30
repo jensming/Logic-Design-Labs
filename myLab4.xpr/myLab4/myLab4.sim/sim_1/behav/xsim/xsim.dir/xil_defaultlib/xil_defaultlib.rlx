@@ -1,0 +1,17 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.sim/sim_1/behav/xsim/glbl.v,1635479372,verilog,,,,glbl,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sim_1/imports/new/lab4_countUD4Ltestbench.v,1635479372,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sim_1/new/lab4_RCtestbench.v,,lab4_countUD4Ltestbench,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sim_1/new/lab4_RCtestbench.v,1635479372,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sim_1/new/lab4_toptestbench.v,,lab4_RCtestbench,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sim_1/new/lab4_toptestbench.v,1635481413,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sim_1/new/testTC.v,,lab4_toptestbench,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sim_1/new/testTC.v,1635479372,verilog,,,,show_7segDisplay;testTC,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/imports/new/hex7seg.v,1635479372,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/RingCounter.v,,hex7seg,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/EdgeDetector.v,1635479372,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/top_module.v,,EdgeDetector,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/RingCounter.v,1635479372,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/EdgeDetector.v,,RingCounter,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/Selector.v,1635479372,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/imports/new/hex7seg.v,,Selector,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/countUD4L.v,1635479372,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/counterUD16L.v,,countUD4L,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/counterUD16L.v,1635479372,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/Selector.v,,counterUD16L,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/lab4_clks.v,1635479372,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sim_1/imports/new/lab4_countUD4Ltestbench.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab4_clks,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/top_module.v,1635481685,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab4.xpr/myLab4/myLab4.srcs/sources_1/new/lab4_clks.v,,top_module,,,,,,,,
