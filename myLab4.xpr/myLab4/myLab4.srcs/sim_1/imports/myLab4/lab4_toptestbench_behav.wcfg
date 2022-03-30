@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lab4_toptestbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lab4_toptestbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="746000001fs"></ZoomEndTime>
+      <Cursor1Time time="3714540000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="132"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/lab4_toptestbench/clkin" type="logic">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/btnR" type="logic">
+      <obj_property name="ElementShortName">btnR</obj_property>
+      <obj_property name="ObjectShortName">btnR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/btnC" type="logic">
+      <obj_property name="ElementShortName">btnC</obj_property>
+      <obj_property name="ObjectShortName">btnC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/btnU" type="logic">
+      <obj_property name="ElementShortName">btnU</obj_property>
+      <obj_property name="ObjectShortName">btnU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/btnD" type="logic">
+      <obj_property name="ElementShortName">btnD</obj_property>
+      <obj_property name="ObjectShortName">btnD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/btnL" type="logic">
+      <obj_property name="ElementShortName">btnL</obj_property>
+      <obj_property name="ObjectShortName">btnL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/c/Up" type="logic">
+      <obj_property name="ElementShortName">Up</obj_property>
+      <obj_property name="ObjectShortName">Up</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/up1" type="logic">
+      <obj_property name="ElementShortName">up1</obj_property>
+      <obj_property name="ObjectShortName">up1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/edgeU/b" type="logic">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/edgeU/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/edgeU/ed" type="logic">
+      <obj_property name="ElementShortName">ed</obj_property>
+      <obj_property name="ObjectShortName">ed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/Q" type="array">
+      <obj_property name="ElementShortName">Q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/edgeU/w" type="array">
+      <obj_property name="ElementShortName">w[1:0]</obj_property>
+      <obj_property name="ObjectShortName">w[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/c/Dw" type="logic">
+      <obj_property name="ElementShortName">Dw</obj_property>
+      <obj_property name="ObjectShortName">Dw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/c/LD" type="logic">
+      <obj_property name="ElementShortName">LD</obj_property>
+      <obj_property name="ObjectShortName">LD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/c/Din" type="array">
+      <obj_property name="ElementShortName">Din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/Up" type="logic">
+      <obj_property name="ElementShortName">Up</obj_property>
+      <obj_property name="ObjectShortName">Up</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/Dw" type="logic">
+      <obj_property name="ElementShortName">Dw</obj_property>
+      <obj_property name="ObjectShortName">Dw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/sw" type="array">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/seg" type="array">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/dp" type="logic">
+      <obj_property name="ElementShortName">dp</obj_property>
+      <obj_property name="ObjectShortName">dp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/D7Seg3" type="array">
+      <obj_property name="ElementShortName">D7Seg3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D7Seg3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/D7Seg2" type="array">
+      <obj_property name="ElementShortName">D7Seg2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D7Seg2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/D7Seg1" type="array">
+      <obj_property name="ElementShortName">D7Seg1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D7Seg1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/D7Seg0" type="array">
+      <obj_property name="ElementShortName">D7Seg0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D7Seg0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/DUTY_CYCLE" type="other">
+      <obj_property name="ElementShortName">DUTY_CYCLE</obj_property>
+      <obj_property name="ObjectShortName">DUTY_CYCLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/OFFSET" type="array">
+      <obj_property name="ElementShortName">OFFSET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OFFSET[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_toptestbench/UUT/digsel" type="logic">
+      <obj_property name="ElementShortName">digsel</obj_property>
+      <obj_property name="ObjectShortName">digsel</obj_property>
+   </wvobject>
+</wave_config>
