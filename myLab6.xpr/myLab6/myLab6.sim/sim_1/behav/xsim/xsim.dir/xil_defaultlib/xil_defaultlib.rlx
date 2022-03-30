@@ -1,0 +1,20 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.sim/sim_1/behav/xsim/glbl.v,1636593025,verilog,,,,glbl,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sim_1/new/lab6_SMtestbench.v,1636514394,verilog,,,,lab6_SMtestbench,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sim_1/new/lab6_toptestbench.v,1636448133,verilog,,,,lab6_toptestbench;show_7segDisplay,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/imports/Desktop/lab6_clks.v,1636434634,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/imports/Desktop/myLab3.xpr/myLab3/myLab3.srcs/sources_1/new/m2_1x8.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab6_clks,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/imports/Desktop/myLab3.xpr/myLab3/myLab3.srcs/sources_1/new/EightBitAdder.v,1636593026,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/imports/Desktop/myLab3.xpr/myLab3/myLab3.srcs/sources_1/new/FullAdder.v,,EightBitAdder,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/imports/Desktop/myLab3.xpr/myLab3/myLab3.srcs/sources_1/new/FullAdder.v,1636514392,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/imports/Desktop/myLab3.xpr/myLab3/myLab3.srcs/sources_1/new/Incrementer.v,,FullAdder,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/imports/Desktop/myLab3.xpr/myLab3/myLab3.srcs/sources_1/new/Incrementer.v,1636514392,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/OneSecCounter.v,,Incrementer,,,,,,,,
+,,,,,,,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/RingCounter.v,1636514394,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/Selector.v,,RingCounter,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/Selector.v,1636514394,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/StateMachine.v,,Selector,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/StateMachine.v,1636593026,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sim_1/new/lab6_SMtestbench.v,,StateMachine,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/TimeCounter.v,1636519368,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/TurkeyCounter.v,,TimeCounter,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/TurkeyCounter.v,1636519382,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/countUD4L.v,,TurkeyCounter,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/countUD4L.v,1636434838,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/hex7seg.v,,countUD4L,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/hex7seg.v,1636434636,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/imports/Desktop/lab6_clks.v,,hex7seg,,,,,,,,
+C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/top_module.v,1636449826,verilog,,C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sim_1/new/lab6_toptestbench.v,,top_module,,,,,,,,
