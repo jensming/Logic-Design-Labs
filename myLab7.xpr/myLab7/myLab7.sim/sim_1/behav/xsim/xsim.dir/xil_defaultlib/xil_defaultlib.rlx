@@ -1,0 +1,20 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.sim/sim_1/behav/xsim/glbl.v,1637564802,verilog,,,,glbl,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sim_1/imports/Desktop/test2.v,1637088746,verilog,,,,check_the_rgb_signals;check_the_sync_signals;testSyncs,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sim_1/new/lab7_SMtestbench.v,1637306545,verilog,,,,lab7_SMtestbench,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sim_1/new/lab7_VGAtestbench.v,1636955092,verilog,,,,lab7_VGAtestbench,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/Desktop/lab7_clks.v,1637088953,verilog,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/new/top_module.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab7_clks,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/StateMachine.v,1637307358,verilog,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/new/VGA_Control.v,,StateMachine,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/new/RingCounter.v,1637564807,verilog,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/new/ScoreCounter.v,,RingCounter,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/new/Selector.v,1637124156,verilog,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sources_1/new/StateMachine.v,,Selector,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/new/countUD4L.v,1637090192,verilog,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/new/counterUD16L.v,,countUD4L,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/new/counterUD16L.v,1637090260,verilog,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/new/hex7seg.v,,counterUD16L,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/new/hex7seg.v,1636593026,verilog,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/Desktop/lab7_clks.v,,hex7seg,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/new/ScoreCounter.v,1637564807,verilog,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/new/Selector.v,,ScoreCounter,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/new/VGA_Control.v,1637131593,verilog,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/new/Walls.v,,VGA_Control,,,,,,,,
+,,,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/new/WhiteBall.v,,Walls,,,,,,,,
+,,,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/imports/new/countUD4L.v,,WhiteBall,,,,,,,,
+C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sources_1/new/top_module.v,1637091060,verilog,,C:/Users/James/Desktop/myLab7.xpr/myLab7/myLab7.srcs/sim_1/imports/Desktop/test2.v,,top_module,,,,,,,,
