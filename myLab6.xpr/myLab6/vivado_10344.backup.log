@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov  9 19:20:02 2021
+# Process ID: 10344
+# Current directory: C:/Users/James/Desktop/myLab6.xpr/myLab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5112 C:\Users\James\Desktop\myLab6.xpr\myLab6\myLab6.xpr
+# Log file: C:/Users/James/Desktop/myLab6.xpr/myLab6/vivado.log
+# Journal file: C:/Users/James/Desktop/myLab6.xpr/myLab6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/jensming/Desktop/myLab6.xpr/myLab6/.Xil/Vivado-5396-104PC19/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/James/.Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 668.238 ; gain = 41.770
+update_compile_order -fileset sources_1
+archive_project C:/Users/James/Desktop/myLab6.xpr/myLab6.xpr.zip -temp_dir C:/Users/James/Desktop/myLab6.xpr/myLab6/.Xil/Vivado-10344-DESKTOP-IE1ITJ6 -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/James/Desktop/myLab6.xpr/myLab6/.Xil/Vivado-10344-DESKTOP-IE1ITJ6' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/James/Desktop/myLab6.xpr/myLab6/.Xil/Vivado-10344-DESKTOP-IE1ITJ6/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

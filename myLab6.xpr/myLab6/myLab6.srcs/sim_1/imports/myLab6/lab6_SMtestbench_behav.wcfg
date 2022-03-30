@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lab6_SMtestbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lab6_SMtestbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="32742155fs"></ZoomStartTime>
+      <ZoomEndTime time="1043656208fs"></ZoomEndTime>
+      <Cursor1Time time="800000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/lab6_SMtestbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/Left" type="logic">
+      <obj_property name="ElementShortName">Left</obj_property>
+      <obj_property name="ObjectShortName">Left</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/Right" type="logic">
+      <obj_property name="ElementShortName">Right</obj_property>
+      <obj_property name="ObjectShortName">Right</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/UUT/WaitNext" type="logic">
+      <obj_property name="ElementShortName">WaitNext</obj_property>
+      <obj_property name="ObjectShortName">WaitNext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/UUT/LeftStartNext" type="logic">
+      <obj_property name="ElementShortName">LeftStartNext</obj_property>
+      <obj_property name="ObjectShortName">LeftStartNext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/UUT/RightStartNext" type="logic">
+      <obj_property name="ElementShortName">RightStartNext</obj_property>
+      <obj_property name="ObjectShortName">RightStartNext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/UUT/LeftCrossingNext" type="logic">
+      <obj_property name="ElementShortName">LeftCrossingNext</obj_property>
+      <obj_property name="ObjectShortName">LeftCrossingNext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/UUT/RightCrossingNext" type="logic">
+      <obj_property name="ElementShortName">RightCrossingNext</obj_property>
+      <obj_property name="ObjectShortName">RightCrossingNext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/UUT/LeftCrossNext" type="logic">
+      <obj_property name="ElementShortName">LeftCrossNext</obj_property>
+      <obj_property name="ObjectShortName">LeftCrossNext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/UUT/RightCrossNext" type="logic">
+      <obj_property name="ElementShortName">RightCrossNext</obj_property>
+      <obj_property name="ObjectShortName">RightCrossNext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/ResetTimer" type="logic">
+      <obj_property name="ElementShortName">ResetTimer</obj_property>
+      <obj_property name="ObjectShortName">ResetTimer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/CrossLeft" type="logic">
+      <obj_property name="ElementShortName">CrossLeft</obj_property>
+      <obj_property name="ObjectShortName">CrossLeft</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/CrossRight" type="logic">
+      <obj_property name="ElementShortName">CrossRight</obj_property>
+      <obj_property name="ObjectShortName">CrossRight</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/DUTY_CYCLE" type="other">
+      <obj_property name="ElementShortName">DUTY_CYCLE</obj_property>
+      <obj_property name="ObjectShortName">DUTY_CYCLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab6_SMtestbench/OFFSET" type="array">
+      <obj_property name="ElementShortName">OFFSET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OFFSET[31:0]</obj_property>
+   </wvobject>
+</wave_config>
