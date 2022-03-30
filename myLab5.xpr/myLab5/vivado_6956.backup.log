@@ -1,0 +1,211 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Nov  8 10:43:59 2021
+# Process ID: 6956
+# Current directory: C:/Users/jensming/Desktop/Lab5.xpr/Lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7540 C:\Users\jensming\Desktop\Lab5.xpr\Lab5\Lab5.xpr
+# Log file: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/vivado.log
+# Journal file: C:/Users/jensming/Desktop/Lab5.xpr/Lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/James/Desktop/Lab5.xpr/Lab5/.Xil/Vivado-25160-DESKTOP-IE1ITJ6/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 769.875 ; gain = 186.164
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 10:46:00 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 10:46:00 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 837.457 ; gain = 8.160
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A28397A
+open_hw_target: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1962.773 ; gain = 1125.316
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 10:53:18 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 10:53:19 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 10:58:23 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 10:58:23 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 11:04:47 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 11:04:47 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 11:10:58 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 11:10:58 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 11:16:50 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 11:16:50 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 11:33:41 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 11:33:41 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 11:38:36 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 11:38:36 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 11:46:06 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 11:46:06 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 11:50:40 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 11:50:40 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 12:01:01 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 12:01:01 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Nov  8 12:10:07 2021] Launched synth_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/synth_1/runme.log
+[Mon Nov  8 12:10:07 2021] Launched impl_1...
+Run output will be captured here: C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/jensming/Desktop/Lab5.xpr/Lab5/Lab5.runs/impl_1/top_module.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A28397A
+archive_project C:/Users/jensming/Desktop/Lab5.xpr/Lab5.xpr.zip -temp_dir C:/Users/jensming/Desktop/Lab5.xpr/Lab5/.Xil/Vivado-6956-104PC25 -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/jensming/Desktop/Lab5.xpr/Lab5/.Xil/Vivado-6956-104PC25' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

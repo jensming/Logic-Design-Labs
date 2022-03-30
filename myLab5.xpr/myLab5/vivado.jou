@@ -1,0 +1,201 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov  9 21:55:44 2021
+# Process ID: 11948
+# Current directory: C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14708 C:\Users\James\Desktop\CSE100\Labs\myLab5.xpr\Lab5\Lab5.xpr
+# Log file: C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/vivado.log
+# Journal file: C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_simulation
+open_wave_config C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sim_1/imports/Lab5/lab5_SMtestbench_behav.wcfg
+source lab5_SMtestbench.tcl
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run 1000 ns
+close_sim
+set_property is_enabled true [get_files  C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sim_1/new/lab5_TMtestbench.v]
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sim_1/imports/Lab5/lab5_SMtestbench_behav.wcfg]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top lab5_TMtestbench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source lab5_TMtestbench.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+set_property is_enabled false [get_files  C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sim_1/new/lab5_TMtestbench.v]
+update_compile_order -fileset sim_1
+set_property is_enabled true [get_files  C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sim_1/new/lab5_toptestbench.v]
+update_compile_order -fileset sim_1
+launch_simulation
+source lab5_toptestbench.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+launch_simulation
+source lab5_toptestbench.tcl
+relaunch_sim
+run 15000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run 10000 ns
+run 1000 ns
+close_sim
+save_wave_config {C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/lab5_toptestbench_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/lab5_toptestbench_behav.wcfg
+set_property xsim.view {C:/../../../../../../../../../../../../../../../../../../../../../lab5_SMtestbench_behav.wcfg C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/lab5_toptestbench_behav.wcfg} [get_filesets sim_1]
+close_sim
+close_project
+open_project C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sim_1/imports/myLab6/lab6_toptestbench_behav.wcfg
+source lab6_toptestbench.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+relaunch_sim
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+close_sim -force
+set_property is_enabled true [get_files  C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sim_1/imports/myLab6/lab6_SMtestbench_behav.wcfg]
+set_property is_enabled false [get_files  C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sim_1/imports/myLab6/lab6_toptestbench_behav.wcfg]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top lab6_SMtestbench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sim_1/imports/myLab6/lab6_SMtestbench_behav.wcfg
+source lab6_SMtestbench.tcl
+run 1000 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim -force
+set_property is_enabled false [get_files  C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sim_1/imports/myLab6/lab6_SMtestbench_behav.wcfg]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top lab6_toptestbench [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+set_property is_enabled true [get_files  C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sim_1/imports/myLab6/lab6_toptestbench_behav.wcfg]
+launch_simulation
+open_wave_config C:/Users/James/Desktop/myLab6.xpr/myLab6/myLab6.srcs/sim_1/imports/myLab6/lab6_toptestbench_behav.wcfg
+source lab6_toptestbench.tcl
+run 10 us
+close_sim
+archive_project C:/Users/James/Desktop/myLab6.xpr/myLab6.xpr.zip -temp_dir C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/.Xil/Vivado-11948-DESKTOP-IE1ITJ6 -force -include_local_ip_cache
