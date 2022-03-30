@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../myLab4.srcs/sources_1/new/countUD4L.v" \
+"../../../../myLab4.srcs/sources_1/new/counterUD16L.v" \
+"../../../../myLab4.srcs/sources_1/new/Selector.v" \
+"../../../../myLab4.srcs/sources_1/imports/new/hex7seg.v" \
+"../../../../myLab4.srcs/sources_1/new/RingCounter.v" \
+"../../../../myLab4.srcs/sources_1/new/EdgeDetector.v" \
+"../../../../myLab4.srcs/sources_1/new/top_module.v" \
+"../../../../myLab4.srcs/sources_1/new/lab4_clks.v" \
+"../../../../myLab4.srcs/sim_1/imports/new/lab4_countUD4Ltestbench.v" \
+"../../../../myLab4.srcs/sim_1/new/lab4_RCtestbench.v" \
+"../../../../myLab4.srcs/sim_1/new/lab4_toptestbench.v" \
+"../../../../myLab4.srcs/sim_1/new/testTC.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
