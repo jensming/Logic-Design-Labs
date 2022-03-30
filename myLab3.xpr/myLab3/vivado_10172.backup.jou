@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Oct 14 16:50:05 2021
+# Process ID: 10172
+# Current directory: C:/Users/James/Desktop/myLab3.xpr/myLab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11364 C:\Users\James\Desktop\myLab3.xpr\myLab3\myLab3.xpr
+# Log file: C:/Users/James/Desktop/myLab3.xpr/myLab3/vivado.log
+# Journal file: C:/Users/James/Desktop/myLab3.xpr/myLab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/James/Desktop/myLab3.xpr/myLab3/myLab3.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+refresh_design
+launch_simulation
+source lab3_testbench.tcl
+run 1000 ns
+run 1000 ns
+run 1000 ns
+close_sim
+refresh_design
+archive_project C:/Users/James/Desktop/myLab3.xpr/myLab3.xpr.zip -temp_dir C:/Users/James/Desktop/myLab3.xpr/myLab3/.Xil/Vivado-10172-DESKTOP-IE1ITJ6 -force -include_local_ip_cache

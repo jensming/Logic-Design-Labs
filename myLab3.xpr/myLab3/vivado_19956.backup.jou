@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Oct 20 16:23:00 2021
+# Process ID: 19956
+# Current directory: C:/Users/James/Desktop/CSE100/Labs/myLab3.xpr/myLab3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7068 C:\Users\James\Desktop\CSE100\Labs\myLab3.xpr\myLab3\myLab3.xpr
+# Log file: C:/Users/James/Desktop/CSE100/Labs/myLab3.xpr/myLab3/vivado.log
+# Journal file: C:/Users/James/Desktop/CSE100/Labs/myLab3.xpr/myLab3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/James/Desktop/CSE100/Labs/myLab3.xpr/myLab3/myLab3.xpr
+update_compile_order -fileset sources_1
