@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../myLab3.srcs/sources_1/new/EightBitAdder.v" \
+"../../../../myLab3.srcs/sources_1/new/FullAdder.v" \
+"../../../../myLab3.srcs/sources_1/new/Incrementer.v" \
+"../../../../myLab3.srcs/sources_1/new/hex7seg.v" \
+"../../../../myLab3.srcs/sources_1/new/lab3_digsel.v" \
+"../../../../myLab3.srcs/sources_1/new/m2_1x8.v" \
+"../../../../myLab3.srcs/sources_1/new/m4_1.v" \
+"../../../../myLab3.srcs/sources_1/new/m8_1.v" \
+"../../../../myLab3.srcs/sources_1/new/top_module.v" \
+"../../../../myLab3.srcs/sim_1/new/lab3_testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
