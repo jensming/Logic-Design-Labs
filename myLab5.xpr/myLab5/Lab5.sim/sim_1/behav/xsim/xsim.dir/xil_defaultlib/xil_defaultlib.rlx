@@ -1,0 +1,18 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.sim/sim_1/behav/xsim/glbl.v,1636440927,verilog,,,,glbl,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sim_1/new/lab5_SMtestbench.v,1636440927,verilog,,,,lab5_SMtestbench,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sim_1/new/lab5_toptestbench.v,1636440927,verilog,,,,lab5_toptestbench;show_7segDisplay,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/imports/Desktop/lab5_clks.v,1636440927,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/top_module.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab5_clks,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/Game_Counter.v,1636440928,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/LED_Shifter.v,,Game_Counter,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/LED_Shifter.v,1636440928,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/LFSR.v,,LED_Shifter,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/LFSR.v,1636440928,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/RingCounter.v,,LFSR,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/RingCounter.v,1636440928,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/Selector.v,,RingCounter,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/Selector.v,1636440928,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/StateMachine.v,,Selector,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/StateMachine.v,1636440928,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/Time_Counter.v,,StateMachine,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/Time_Counter.v,1636440928,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/countU4L.v,,Time_Counter,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/countU4L.v,1636440928,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/hex7seg.v,,countU4L,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/hex7seg.v,1636440928,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/imports/Desktop/lab5_clks.v,,hex7seg,,,,,,,,
+C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sources_1/new/top_module.v,1636440928,verilog,,C:/Users/James/Desktop/CSE100/Labs/myLab5.xpr/Lab5/Lab5.srcs/sim_1/new/lab5_toptestbench.v,,top_module,,,,,,,,
